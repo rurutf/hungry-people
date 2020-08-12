@@ -1,0 +1,877 @@
+        html {
+            font-size: 15px;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+        
+        p {
+            margin: 0 0 10px;
+        }
+        
+        html {
+            font-size: 12px;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.5;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        .page {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+        
+        .hero-image {
+            width: 100%;
+            height: 800px;
+            background: url(../img/bg.jpg) 0% 70% no-repeat;
+            background-size: cover;
+        }
+        
+        .blacked {
+            background: rgba(37, 20, 7, 0.6);
+            width: 100%;
+            height: 100%;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 80px;
+        }
+        /*=================
+-------Header------
+===================*/
+        
+        .header {
+            padding-top: 38px;
+        }
+        
+        .header-nav {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .header-nav-link {
+            color: #fff;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .header-nav-link:hover {
+            padding-top: 4px;
+            transition: padding-top .2s linear;
+        }
+        
+        .logo {
+            margin-top: -19px
+        }
+        
+        .line-nav {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            width: 36%;
+            position: absolute;
+            top: 14%;
+        }
+        
+        .line-nav.left {
+            left: 4%;
+        }
+        
+        .line-nav.right {
+            left: 59%;
+        }
+        /*=================
+-----hero-image----
+===================*/
+        
+        .hero-image-inner {
+            width: 100%;
+            margin-top: 121px;
+            display: flex;
+            justify-content: space-between;
+        }
+        /*----aside-left----*/
+        
+        .aside-left {
+            width: 10%;
+            flex-basis: 10%;
+        }
+        
+        .work-time {
+            width: 300px;
+            margin-left: -100px;
+            margin-top: 120px;
+            transform: rotate(270deg);
+            color: #fff;
+        }
+        /*----content----*/
+        
+        .content {
+            flex-basis: 80%;
+            text-align: center;
+        }
+        
+        .content-text {
+            font-size: 1rem;
+            line-height: 14px;
+            letter-spacing: 0.5em;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        
+        .content-title {
+            font-size: 8rem;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: normal;
+        }
+        
+        .yellow-line {
+            width: 60px;
+            border-bottom: 5.11px solid #E8C300;
+            border-radius: 50px;
+            margin: 0 auto;
+        }
+        
+        .btn-group {
+            padding: 20px 0 82px 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .btn {
+            width: 200px;
+            height: 60px;
+            font-size: 1rem;
+            line-height: 20px;
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background: #E8C300;
+            transition: background .2s linear;
+        }
+        
+        .btn.left {
+            margin-right: 20px;
+        }
+        
+        .btn.right {
+            margin-left: 20px;
+        }
+        
+        .scroll-down-btn {
+            position: relative;
+            bottom: -15px;
+            animation: bounce 0.4s infinite;
+        }
+        
+        .aside-right {
+            flex-basis: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .icon:hover {
+            color: #E8C300;
+            transition: color .2s linear;
+        }
+        /*=================
+-------About us----
+===================*/
+        
+        .page-section {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .page-section-inner {
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            text-align: center;
+        }
+        
+        .page-section-inner.about-us {
+            margin-right: 30px;
+        }
+        
+        .page-section-title {
+            padding-bottom: 10px;
+            font-size: 3rem;
+            line-height: 4rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .page-section-text {
+            padding-top: 10px;
+            font-size: 1.5rem;
+            line-height: 2.3rem;
+        }
+        
+        .page-section-text.bold {
+            font-weight: bold;
+        }
+        
+        .section-img {
+            width: 475px;
+            height: 475px;
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+        }
+        
+        .section-img.about-us {
+            background: url(../img/about-us.jpg) center no-repeat;
+            background-size: cover;
+        }
+        /*=================
+-------Our team----
+===================*/
+        
+        .page-section.team {
+            background: #000 url(../img/master-chef-bg.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        .page-title-over {
+            font-size: 1rem;
+            line-height: 14px;
+            letter-spacing: 0.5em;
+            text-transform: uppercase;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .page-title-under {
+            font-size: 1rem;
+            line-height: 1rem;
+            color: rgba(51, 51, 51, 0.5);
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .page-section-inner.white {
+            color: #fff;
+            margin-left: 30px;
+        }
+        
+        .section-img.team {
+            background: url(../img/master-chef.jpg) center no-repeat;
+            background-size: cover;
+        }
+        /*=================
+----Book a table---
+===================*/
+        
+        .page-section-inner.book {
+            width: 100%;
+            margin-right: 30px;
+        }
+        
+        .form {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+        
+        .form-group {
+            width: 49%;
+            margin-top: 10px;
+        }
+        
+        .input,
+        .select,
+        .textarea {
+            display: block;
+            width: 100%;
+            height: 60px;
+            background: #E5E5E5;
+            border: 0;
+            border-radius: 5px;
+            color: rgba(51, 51, 51, 0.5);
+            font-size: 14px;
+            line-height: 19px;
+            text-indent: 20px;
+            align-items: center;
+        }
+        
+        .input:hover,
+        .select:hover {
+            background: #e5e5e57c;
+            transition: background .2s linear;
+        }
+        
+        .btn.full {
+            width: 100%;
+            background-color: #E8C300;
+            color: #fff;
+            border: 0;
+            margin-top: 10px;
+        }
+        
+        .btn.full:hover {
+            background: #aa8f05;
+            transition: background .2s linear;
+        }
+        
+        .section-img.time {
+            background: url(../img/book-table.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        .page-title-under {
+            font-size: 1rem;
+            line-height: 1rem;
+            text-align: center;
+            color: rgba(51, 51, 51, 0.5);
+        }
+        
+        .page-title-under span {
+            font-weight: bold;
+        }
+        /*=================
+--Chocolate pancakes-
+===================*/
+        
+        .page-galerie {
+            background: #000 url(../img/chocolate-pancakes-bg.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        .section-img.galerie {
+            background: url(../img/ice-cream.png) center no-repeat;
+            background-size: cover;
+        }
+        
+        .ellipse-galerie {
+            margin-right: 20px;
+        }
+        /*=================
+---Delicious menu---
+===================*/
+        
+        .sub-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .sub-menu-inner {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .sub-menu-link {
+            text-decoration: none;
+            font-size: 1rem;
+            line-height: 18px;
+            color: #333;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 10px 30px;
+            border-right: 1px solid rgba(51, 51, 51, 0.2);
+        }
+        
+        .sub-menu-link:last-child {
+            border-right: 0;
+        }
+        
+        .sub-menu-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 41px;
+        }
+        
+        .dishes-group {
+            text-align: left;
+        }
+        
+        .dishes {
+            font-size: 1.3rem;
+            line-height: 1.7rem;
+            color: #333;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .dishes-sup {
+            color: #B2B2B2;
+            margin-top: -10px;
+        }
+        /*=================
+---Private events---
+===================*/
+        
+        .page-event {
+            background: #000 url(../img/chocolate-pancakes-bg.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        .section-img.weddings {
+            background: url(../img/wedding.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        .section-img.corporate {
+            background: url(../img/corporate.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        .under-box {
+            height: 100px;
+            background: #000;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 2rem;
+            display: flex;
+            text-indent: 20px;
+            position: relative;
+            top: 187px;
+            align-items: center;
+        }
+        
+        .under-box.left-img {
+            transform: rotate(90deg);
+            left: 188px;
+        }
+        
+        .under-box.right-img {
+            transform: rotate(270deg);
+            right: 188px;
+        }
+        
+        .page-title-under.events {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        /*=================
+----Photo galerie---
+===================*/
+        
+        .photo-galerie {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .photo-galerie-img {
+            width: 25%;
+            height: 360px;
+        }
+        
+        .photo-galerie-img.mazo {
+            background: url(../img/mazo.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        .photo-galerie-img.modern {
+            background: url(../img/modern.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        .photo-galerie-img.modern2 {
+            background: url(../img/modern2.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        .photo-galerie-img.mazo4 {
+            background: url(../img/mazo4.jpg) center no-repeat;
+            background-size: cover;
+        }
+        /*=================
+------Contact------
+===================*/
+        
+        .form-contact {
+            width: 33%;
+            margin-top: 10px;
+        }
+        
+        .form-textarea {
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .textarea {
+            height: 80px;
+            resize: none;
+        }
+        
+        .box-contacts {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .btn.full.contact {
+            width: 50%;
+        }
+        
+        .icon-img {
+            width: 14px;
+        }
+        
+        .maps {
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: 900;
+            text-decoration: none;
+            color: rgba(51, 51, 51, 0.5);
+        }
+        
+        .fas.fa-map-marker-alt,
+        .fas.fa-phone,
+        .fas.fa-envelope {
+            color: #E8C300;
+            margin-right: 3px;
+        }
+        /*=================
+------Footer------
+===================*/
+        
+        .footer {
+            width: 100%;
+            height: 100px;
+        }
+        
+        .iframe {
+            width: 100%;
+        }
+        
+        .page-title-under.footer {
+            background: rgba(0, 0, 0, 0.9);
+            line-height: 1.5rem;
+            color: rgba(255, 255, 255, 0.5);
+            ;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
+        /*=================
+-----Бургер меню----
+===================*/
+        
+        .navigation {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 0;
+            list-style: none;
+            background: #E5E5E5;
+        }
+        
+        .nav-item {
+            width: 200px;
+        }
+        
+        .nav-item a {
+            display: block;
+            padding: 1em;
+            color: rgba(51, 51, 51, 0.5);
+            font-size: 1.2em;
+            text-decoration: none;
+            transition: color 0.2s, background 0.5s;
+        }
+        
+        .nav-item a:hover {
+            color: #E8C300;
+            ;
+        }
+        
+        .site-wrap {
+            min-height: 100%;
+            min-width: 100%;
+            background-color: white;
+            position: relative;
+            top: 0;
+            bottom: 100%;
+            left: 0;
+            z-index: 1;
+        }
+        
+        .nav-trigger {
+            position: absolute;
+            clip: rect(0, 0, 0, 0);
+        }
+        
+        label[for="nav-trigger"] {
+            display: none;
+            position: fixed;
+            left: 15px;
+            top: 15px;
+            z-index: 2;
+            height: 30px;
+            width: 30px;
+            cursor: pointer;
+        }
+        
+        .fas.fa-bars {
+            color: #E8C300;
+            font-size: 35px;
+        }
+        
+        .nav-trigger+label,
+        .site-wrap {
+            transition: left 0.2s;
+        }
+        
+        .nav-trigger:checked+label {
+            left: 215px;
+        }
+        
+        .nav-trigger:checked~.site-wrap {
+            left: 200px;
+            box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        body {
+            overflow-x: hidden;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        /*=================
+------Media------
+===================*/
+        
+        @media (max-width: 1190px) {
+            .hero-image {
+                height: 700px;
+            }
+            .content-title {
+                font-size: 6rem;
+            }
+            .hero-image-inner {
+                margin-top: 103px;
+            }
+            .dishes {
+                font-size: 1.1rem;
+                line-height: 1.3rem;
+            }
+            .section-img {
+                width: 375px;
+                height: 375px;
+            }
+            .under-box {
+                top: 137px;
+            }
+            .under-box.left-img {
+                left: 138px;
+            }
+            .under-box.right-img {
+                right: 138px;
+            }
+            .maps {
+                font-size: 10px;
+            }
+        }
+        
+        @media (max-width: 1030px) {
+            .logo {
+                width: 100px;
+            }
+            .line-nav {
+                top: 10%
+            }
+            .content-title {
+                font-size: 5rem;
+            }
+            .maps {
+                font-size: 9px;
+            }
+            .section-img {
+                width: 315px;
+                height: 315px;
+            }
+            .under-box {
+                top: 107px;
+            }
+            .under-box.left-img {
+                left: 108px;
+            }
+            .under-box.right-img {
+                right: 108px;
+            }
+            .icon {
+                display: none;
+            }
+            .btn.full.contact {
+                width: 100%;
+            }
+            .dishes-group {
+                margin-right: 20px;
+            }
+            .dishes-group:last-child {
+                margin-right: ;
+            }
+            .photo-galerie {
+                flex-direction: column;
+            }
+            .photo-galerie-img {
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 908px) {
+            .work-time {
+                display: none;
+            }
+            .sub-menu-group {
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .page-section {
+                flex-direction: column;
+            }
+            .section-box {
+                margin: 20px auto;
+            }
+            .section-img.time {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 760px) {
+            .container {
+                padding: 0 20px 0 45px;
+            }
+            .logo {
+                display: none;
+            }
+            .content-title {
+                font-size: 4.5rem;
+            }
+            .hero-image {
+                height: 550px;
+            }
+            label[for="nav-trigger"] {
+                display: block;
+            }
+            .header-nav {
+                display: none;
+            }
+            .hero-image-inner {
+                margin-top: 83px;
+            }
+            .scroll-down-btn {
+                display: none;
+            }
+            .content-title {
+                font-size: 4rem;
+            }
+            .form-group {
+                width: 100%;
+            }
+            .form-contact {
+                width: 100%;
+            }
+            .page-section-inner.white {
+                margin-left: 0;
+            }
+            .page-section-inner.about-us {
+                margin-right: 0;
+            }
+            .under-box {
+                top: 67px;
+                text-indent: 0;
+                padding-left: 20px;
+            }
+            .under-box.left-img {
+                left: 68px;
+            }
+            .under-box.right-img {
+                right: 68px;
+            }
+            .page-title-under.events {
+                padding: 40px 20px;
+            }
+            .page-section-inner.book {
+                margin-right: 0;
+            }
+            .sub-menu-inner {
+                justify-content: space-around;
+            }
+            .sub-menu-link {
+                padding: 10px;
+                margin-right: 10px;
+                border-right: 0;
+                border-bottom: 1px solid rgba(51, 51, 51, 0.2)
+            }
+        }
+        
+        @media (max-width: 530px) {
+            .btn-group {
+                flex-wrap: wrap;
+            }
+            .btn.left {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            .btn.right {
+                margin-left: 0;
+            }
+            .page-section-title {
+                font-size: 2.4rem;
+                line-height: 3rem;
+            }
+            .page-section-text {
+                font-size: 1.3rem;
+                line-height: 2rem;
+            }
+            .section-img {
+                width: 235px;
+                height: 235px;
+            }
+        }
